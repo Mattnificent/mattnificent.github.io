@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>TaskBid Privacy Policy</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible">
+
+        <meta name="viewport" content="width=480, initial-scale=.5">
+        <meta name="description" content="TaskBid Privacy Policy">
+        <meta name="author" content="Matthew Beck">
+
+        <base href="https://www.taskbid.net/">
+
+        <link href="../css/styles.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="logo-container-container">
+            <div class="privacy-policy-header">
+                <h1>TaskBid Privacy Policy</h1>
+            </div>
+        </div>
+
+        <div class="content-container" style="background-color: #B0E3E6;">
+            <h2>Overview</h2>
+            
+            <p>Your privacy and security are very important to TaskBid.</p>
+            <p>Your data in TaskBid is protected by the full security of Google authentication and encryption.</p>
+            <p>All access token data is encrypted, and highly secure from third party access.</p>
+            <p>TaskBid will NEVER share your personal information with any third party.</p>
+            <p>Google’s privacy policy can be viewed here: <a target="_blank" href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+            
+            <h2>Required Sopes</h2>
+            
+            <p>The following scopes are needed:</p>
+            <ul>
+                <li>userinfo.email</li>
+                <li>userinfo.profile</li>
+                <li>drive</li>
+                <li>script.external_request</li>
+                <li>script.send_mail</li>
+                <li>spreadsheets</li>
+                <li>openid</li>
+            </ul>
+            
+            <p>The main part of TaskBid is a Google API project.</p>
+            <p>The user will call this API using a token stored in the spreadsheet metadata, and encrypted with a key stored in the user's properties.</p>
+            <p>For this reason, the <b>script.external_request</b> scope is needed.</p>
+            <p>The API needs to identify the user to grant access to changing certain cells, so the <b>email/profile/openid</b> scopes are needed.</p>
+            <p>The API needs to create, update, and delete Google Sheets and App Script project files dynamically for new team members, hence the <b>drive</b> and <b>spreadsheets</b> scopes are needed.</p>
+            <p>The API also sends email as the user, to initiate communication with other team members in special cases like access requests, and accepting contracts.</p>
+            <p>For this reason, the <b>script.send_mail</b> scope is needed.</p>
+        </div>
+
+
+
+        <div class="footer">
+            <div class="mini-logo">
+                <img src="img/TaskBidLogo.png" alt="TaskBid Logo" style="height: 100px;">
+                <h4>Copyright 2019 - 2023 PennyVote LLC; All Rights Reserved</h4>
+                <a href="../">Home</a>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+        
+    </body>
+</html>
+
+
+

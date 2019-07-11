@@ -1,3 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+        <title>TaskBid</title>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible">
+        
+        <meta name="viewport" content="width=480, initial-scale=.5">
+        <meta name="description" content="TaskBid Homepage">
+        <meta name="author" content="Matthew Beck">
 
-Schwing!
+        <base href="https://www.taskbid.net/">
+        
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+        <link href="css/styles.css" rel="stylesheet">
+        
+
+    </head>
+
+    <body>
+        
+        <div class="logo-container-container">
+            <div class="logo-container">
+                <img src="img/TaskBidLogo.png" alt="TaskBid Logo">
+                <h1>TaskBid Overview</h1>
+            </div>
+        </div>
+        
+        
+        <div class="content-container" style="background-color: #B0E3E6; min-width: 1041px;">
+            
+            <div class="content-align-00">
+                <h2>Me</h2>
+            </div>
+            
+            <div class="diagram-container diagram-00">
+                <img src="img/TBDiag_00_Me.png" alt="Me - TaskBid!">
+            </div>
+            
+            <div class="content-align-00">
+                <p>TaskBid was created out of necessity for another company I am running.</p>
+                <p>The software is so sophisticated, I just had to sell it.</p>
+            </div>
+        </div>
+        
+        
+        <div class="content-container" style="background-color: #DAE8FC; min-width: 711px;">
+            
+            <div class="content-align-01">
+                <h2>You</h2>
+            </div>
+            
+            <div class="diagram-container diagram-01">
+                <img src="img/TBDiag_01_You.png" alt="You - The Customer!">
+            </div>
+            
+            <div class="content-align-01">
+                <p>This is you.</p>
+                <p>You have a task list, and need help.</p>
+                <p>If you like spreadsheets, you are going to <b>love</b> TaskBid.</p>
+            </div>
+        </div>
+        
+        
+        <div class="content-container" style="background-color: #B0E3E6; min-width: 500px;">
+            
+            <div class="content-align-02">
+                <h2>Start</h2>
+            </div>
+            
+            <div class="diagram-02-columns">
+                <div class="diagram-02">
+                    <img src="img/TBDiag_02_TeamCreation.png" alt="Team Creation">
+                </div>
+                
+                <div class="content-align-02">
+                    <p>To start, I will need the following:</p>
+                    <ol>
+                        <li>Your team name</li>
+                        <li>Your administrator’s email address</li>
+                    </ol>
+                    <p>Next, TaskBid will create a few spreadsheets for your team.</p>
+                    <p>Then, the spreadsheets will be shared with your administrator (probably you).</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="content-container" style="background-color: #DAE8FC; min-width: 565px;">
+            
+            <div class="content-align-03">
+                <h2>Team</h2>
+            </div>
+            
+            <div class="diagram-container diagram-03">
+                <img src="img/TBDiag_03_Administrator.png" alt="The Administrator">
+            </div>
+            
+            <div class="content-align-03">
+                <p>Your team will have exactly 1 admin.</p>
+                <p>The admin accepts bids from contractors.</p>
+                <p>Your team can have as many contractors as you need.</p>
+            </div>
+        </div>
+        
+        
+        <div class="content-container" style="background-color: #FFF2CC; min-width: 1007px;">
+            
+            <div class="content-align-04">
+                <h2>Team Member Sheet</h2>
+            </div>
+            
+            <div class="content-align-04">
+                <h3>Initial</h3>
+            </div>
+            
+            <div class="diagram-container diagram-04">
+                <img src="img/Sheet_00_InitialTeamMembers.png" alt="Initial Team Members">
+            </div>
+            
+            <div class="content-align-04">
+                <p>Initially, your Team Member sheet will have 1 Team Member - the admin.</p>
+                <p>Gray columns are automatically updated by the system.</p>
+            </div>
+            
+            <div class="content-align-05">
+                <h3>Add Contractors</h3>
+            </div>
+            
+            <div class="diagram-container diagram-05">
+                <img src="img/TBDiag_04_AddingContractors.png" alt="Add Contractors">
+            </div>
+            
+            <div class="content-align-05">
+                <p>Both dark red columns need to be filled to add a contractor.</p>
+                <p>The system automatically detects new rows and deleted rows.</p>
+                <p>A new row creates and shares a new Task Worksheet with the contractor.</p>
+                <p>Deleting a row deletes the contractor's Task Worksheet.</p>
+            </div>
+            
+            
+            <div class="content-align-06">
+                <h3>Set Supervisors</h3>
+            </div>
+            
+            <div class="diagram-container diagram-06">
+                <img src="img/TBDiag_05_SetSupervisors.png" alt="Set Supervisors">
+            </div>
+            
+            <div class="content-align-06">
+                <p>The dark blue "Direct Supervisor" column defines the team hierarchy.</p>
+                <p>Higher level supervisors can edit more tasks than lower level contractors.</p>
+            </div>
+            
+            
+            <div class="content-align-04">
+                <h3>Completed</h3>
+            </div>
+            
+            <div class="diagram-container diagram-04">
+                <img src="img/Sheet_01_CompleteTeamMembers.png" alt="Completed Team Members">
+            </div>
+        
+            <div class="content-align-04">
+                <p>Black columns are informational only, and can be deleted.</p>
+                <p>New columns may also be added.</p>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div class="content-container" style="background-color: #F5F5F5; min-width: 800px;">
+            
+            <div class="content-align-07">
+                <h2>System Overview</h2>
+            </div>
+            
+            <div class="diagram-container diagram-07">
+                <img src="img/TBDiag_06_SystemOverview.png" alt="System Overview">
+            </div>
+            
+            <div class="content-align-07">
+                <p>Each Team Member, whether administrator or contractor, has one Task Worksheet.</p>
+                <p>Each Team Member should only modify their own Task Worksheet – this is to identify who changes what.</p>
+                <p>The activity log shows the history of who has changed what.</p>
+                <p>The master records are used by the system to identify new changes.</p>
+            </div>
+        </div>
+        
+        
+        <div class="content-container" style="background-color: #D5E8D4; min-width: 1023px;">
+            
+            <div class="content-align-08">
+                <h2>Task Worksheet</h2>
+            </div>
+            
+            <div class="diagram-container diagram-08">
+                <img src="img/Sheet_02_TaskWorksheet.png" alt="Task Worksheet">
+            </div>
+            
+            <div class="content-align-08">
+                <p>There are two main areas of a Task Worksheet: The Status Log, and the Task Area.</p>
+                <p>The status log lets the user know when the system is running.</p>
+                <p>The Task Area is the main work area, and can be modified like any other spreadsheet.</p>
+            </div>
+        </div>
+        
+        
+        <div class="content-container" style="background-color: #F5F5F5; min-width: 1467px;">
+            
+            <div class="content-align-09">
+                <h2>Synchronization</h2>
+            </div>
+            
+            <div class="content-align-09">
+                <p>TaskBid has 2 stages of synchronization:</p>
+                <ol>
+                    <li>Local Sync</li>
+                    <li>Global Sync</li>
+                </ol> 
+                <p>The system is very similar to a version control system, such as Git or SVN</p>
+                <ul>
+                    <li>Each Task Worksheet is a local copy.</li>
+                    <li>The Master Records are the master repository.</li>
+                </ul> 
+                
+            </div>
+            
+            <div class="content-align-09">
+                <h3>Local Sync</h3>
+            </div>
+            
+            <div class="diagram-container diagram-09">
+                <img src="img/TBDiag_07_LocalSync_01.png" alt="Local Sync 1">
+            </div>
+            
+            <div class="diagram-container diagram-10">
+                <img src="img/TBDiag_08_LocalSync_02.png" alt="Local Sync 2">
+            </div>
+            
+            <div class="diagram-container diagram-11">
+                <img src="img/Sheet_03_LocalSync.png" alt="Local Sync Sheet">
+            </div>
+            
+            <div class="content-align-11">
+                <p>Local Sync shows the editing Team Member the status of their local changes.</p>
+                <p>Changes are not submitted.</p>
+                <p>In a version control system, a Local Sync would be like checking the status of pending changes in your local copy against the master repo.</p>
+            </div>
+            
+            
+            <div class="content-align-12">
+                <h3>Global Sync</h3>
+            </div>
+            
+            <div class="diagram-container diagram-12">
+                <img src="img/TBDiag_09_GlobalSync_01.png" alt="Global Sync 1">
+            </div>
+            
+            <div class="diagram-container diagram-13">
+                <img src="img/TBDiag_10_GlobalSync_02.png" alt="Global Sync 2">
+            </div>
+                        
+            <div class="diagram-container diagram-14">
+                <img src="img/Sheet_04_GlobalSync.png" alt="Global Sync Sheet">
+            </div>
+            
+            
+            <div class="content-align-14">
+                <p>Global Sync is the conductor of your team's symphony of tasks.</p>
+                <p>Global Sync gets <b>every</b> Team Members' changes, merges them, and pushes all changes to <b>everyone's</b> Task Worksheet.</p>
+                <p>In a version control system, a Global Sync would be like every single Team Member checking in their local changes, auto-merging the changes, and pushing the changes to everyone’s local copy.</p>
+            </div>
+            
+            
+            
+            <div class="content-align-15">
+                <h3>Activity Log</h3>
+            </div>
+            
+            <div class="diagram-container diagram-15">
+                <img src="img/Sheet_05_ActivityLog.png" alt="Activity Log Sheet">
+            </div>
+            
+            
+            <div class="content-align-15">
+                <p>The Activity Log shows all data for every task insert, update, and delete that is processed by Global Sync.</p>
+                <p>The rows are color banded for when more than 1 column of the same task is affected.</p>
+            </div>
+            
+        </div>
+        
+        
+        
+        <div class="content-container" style="background-color: #B0E3E6; min-width: 580px;">
+            <div class="content-align-16">
+                <h2>Contact</h2>
+            </div>
+            
+            <div class="diagram-16-columns">
+                <div class="diagram-16">
+                    <img src="img/Me.jpg" alt="Me" style="height: 400px;">
+                </div>
+                
+                <div class="content-align-16">
+                    <p>Email me, and let's get started!</p>
+                    <p>mattbeckondeck@gmail.com</p>
+                    <p><a href="mailto:mattbeckondeck@gmail.com">Mail To Link</a></p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="footer">
+            <div class="mini-logo">
+                <img src="img/TaskBidLogo.png" alt="TaskBid Logo" style="height: 100px;">
+                <h4>Copyright 2019 - 2023 PennyVote LLC; All Rights Reserved</h4>
+                <a href="/privacy">Privacy Policy</a>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+        
+        
+    </body>
+</html>
 

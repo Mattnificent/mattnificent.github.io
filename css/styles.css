@@ -1,0 +1,359 @@
+
+body {
+    background-color: #BBBBBB;
+}
+@-ms-viewport{
+  width: 480;
+}
+
+.logo-container-container {
+    width: 100%;
+}
+
+.logo-container {
+    
+    margin: auto; /* Centers it */
+    max-width: 700px; /* Purely aesthetic  choice */
+    background-color: #B0E3E6;
+  
+    /* This keeps slow loading images from 
+     * shifting html down abruptly.
+     * It is overridden by media query       */
+    height: 250px;
+    
+    /* Flex Content Fitting */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 25px;
+
+    /* Border */
+    border: solid;
+    border-width: 4px;
+    border-radius: 200px;
+    border-color: black;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo-container img {
+    max-width: 60%;
+    max-height: 300px;
+}
+.logo-container h1 {
+    display: inline;
+}
+
+p li {
+    font-size: large;
+}
+
+.content-container {
+    margin-top: 10px;
+    background-color: white;
+    border: solid;
+    border-radius: 20px;
+    padding: 10px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.diagram-container {
+    
+    margin: 10px auto 10px auto;
+    
+    background-color: #EEEEEE;
+    
+    padding: 10px;
+    
+    /* Border */
+    border: solid;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+    .logo-container {
+      height: 150px;
+    }
+}
+
+.diagram-00 {
+    height: 781px;
+    width: 1001px;
+}
+
+.content-align-00 {
+    margin: auto;
+    width: 1041px;
+}
+
+.diagram-01 {
+    height: 321px;
+    width: 671px;
+}
+
+.content-align-01 {
+    margin: auto;
+    width: 711px;
+}
+
+.diagram-02 {
+    background-color: #EEEEEE;
+    padding: 10px;
+    
+    
+    margin-right: 25px;
+    height: 782px;
+    width: 292px;
+    /* Border */
+    border: solid;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.content-align-02 {
+    margin: auto;
+    width: 732px;
+    
+}
+
+.diagram-02-columns {
+    
+    margin: 36px auto 20px auto;
+    
+    max-width: 700px; /* Purely aesthetic  choice */
+  
+    /* This keeps slow loading images from 
+     * shifting html down abruptly.          */
+    height: 782px;
+    
+    /* Flex Content Fitting */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.diagram-03 {
+    height: 821px;
+    width: 525px;
+}
+
+.content-align-03 {
+    margin: auto;
+    width: 565px;
+}
+
+
+.diagram-04 {
+    height: 299px;
+    width: 967px;
+}
+
+.content-align-04 {
+    margin: auto;
+    width: 1007px;
+}
+
+
+.diagram-05 {
+    height: 712px;
+    width: 737px;
+}
+
+.content-align-05 {
+    margin: 40px auto 0px auto;
+    width: 777px;
+}
+
+
+.diagram-06 {
+    height: 685px;
+    width: 615px;
+}
+
+.content-align-06 {
+    margin: 40px auto 0px auto;
+    width: 655px;
+}
+
+
+.diagram-07 {
+    height: 710px;
+    width: 760px;
+}
+
+.content-align-07 {
+    margin: auto;
+    width: 800px;
+}
+
+
+.diagram-08 {
+    height: 390px;
+    width: 1023px;
+}
+
+.content-align-08 {
+    margin: auto;
+    width: 1063px;
+}
+
+
+.diagram-09 {
+    height: 347px;
+    width: 765px;
+}
+
+.content-align-09 {
+    margin: auto;
+    width: 805px;
+}
+
+
+.diagram-10 {
+    height: 235px;
+    width: 770px;
+}
+
+
+.diagram-11 {
+    height: 445px;
+    width: 1179px;
+}
+
+.content-align-11 {
+    margin: auto;
+    width: 1219px;
+}
+
+.diagram-12 {
+    height: 677px;
+    width: 725px;
+}
+
+.content-align-12 {
+    margin: 40px auto 0px auto;
+    width: 765px;
+}
+
+
+.diagram-13 {
+    height: 677px;
+    width: 718px;
+}
+
+.content-align-13 {
+    margin: 40px auto 0px auto;
+    width: 765px;
+}
+
+.diagram-14 {
+    height: 360px;
+    width: 1122px;
+}
+
+.content-align-14 {
+    margin: 40px auto 0px auto;
+    width: 1162px;
+}
+
+
+.diagram-15 {
+    height: 890px;
+    width: 1427px;
+}
+
+.content-align-15 {
+    margin: 40px auto 0px auto;
+    width: 1467px;
+}
+
+
+
+
+.diagram-16 {
+    background-color: #EEEEEE;
+    padding: 10px;
+    
+    
+    margin-right: 25px;
+    
+    /* Border */
+    border: solid;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.content-align-16 {
+    font-size: large;
+    font-weight: bold;
+    margin: auto;
+    width: 732px;
+}
+
+.diagram-16-columns {
+    
+    margin: 36px auto 20px auto;
+    
+    max-width: 700px; /* Purely aesthetic  choice */
+  
+    
+    /* Flex Content Fitting */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.footer {
+    border-top: solid;
+    border-width: 1px;
+    padding-top: 20px;
+    margin: 100px 40px 20px 40px;
+}
+
+.mini-logo {
+    
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 40px 65px;
+
+}
+
+.mini-logo h4 {
+    display: inline;
+}
+
+
+
+.privacy-policy-header {
+    
+    margin: auto; /* Centers it */
+    background-color: #B0E3E6;
+    
+    /* Flex Content Fitting */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Border */
+    border: solid;
+    border-width: 4px;
+    border-radius: 100px;
+    border-color: black;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
